@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+    <style>
+        div{
+            display: inline-block;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            border-radius: 2%;
+            text-align: center;
+            background-color: red;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover{
+            background-color: yellow;
+        }
+        div:hover > p{
+            display: block;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Seletores Personalizados em HTML5</h1>
+    <p>Além dos classicos id e class existem as pseudoClasses em css3</p>
+    <div id="d1">
+        01 <p>achou</p> 
+    </div>   
+    <div id="d2">
+        02 <p>achou</p> 
+    </div>
+    <div id="d3">
+        03 <p>achou</p> 
+    </div>
+</body>
+</html>

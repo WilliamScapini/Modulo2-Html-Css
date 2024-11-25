@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
+        @font-face {
+            font-family: 'Sketch';
+            src: url(fontes/Sketch\ Gothic\ School.ttf) format(truetype);
+            /*Existem formatos que determinados navegadores não  suportam(ttf; otf; svg; etv
+            você pode adicionar um novo url dando um espaço do format para inserir um novo arquivo caso o primeiro o navegador não suporte*/
+        }
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2em;
+        }
+        h2{
+            font-family: sans-serif;
+        }
+        h3{
+            font-family: "sketch";
+            font-size: 3em;
+            font-weight: lighter;
+        }
+        div > p {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+        }
+        span > p{
+            font: italic 700 2em "Caveat",cursive;
+            /*font-family:  "Caveat,cursive;
+            font-style: italic;
+            font-size: 2em;
+            font-weight: 700;*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo necessitatibus nihil ea sunt quos quae soluta ullam dignissimos maxime animi! Error, consequuntur. Adipisci eaque natus, est dolor blanditiis laboriosam officia!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae reprehenderit illum vitae rerum ipsam, totam doloribus dignissimos provident ab vero nulla non dolor repellendus laborum libero rem nihil dolore debitis?</p>
+        <h2>SubTítulo</h2>
+    </div>
+    <span>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, quas tempore. Quibusdam voluptatibus facere voluptatem neque, exercitationem labore consectetur aperiam doloremque, quod, error recusandae quasi cupiditate nostrum deleniti quas expedita!</p>
+    </span>
+    <h3>Também é possivél pegar fontes externas baixadas como essa que é a font sketch, ela tem acentos</h3>
+</body>
+</html>
