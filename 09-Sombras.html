@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas Semanticas</title>
+    <style>
+        *{
+            text-align: center;
+            padding: 5px;
+        }
+    body{
+        background-color: dimgray;
+    }
+    header{
+        background-color: white;
+        height: 20vh;
+        padding: 0;
+    }
+    main{
+        background-color: white;
+        height: max-content;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.47);
+    }
+    footer{
+        background-color: black;
+        color: white;
+        margin-top: 10px;
+    }
+    aside{
+        color: rgb(25, 90, 84);
+    }
+    article{
+        background-color: lightgrey;
+    }
+    nav{
+        position: absolute;
+        background-color: rgb(47, 82, 72);
+        text-align: justify;
+        bottom: 0;
+        width: 100%;
+        padding: 0;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.36);
+    }
+    a{
+        margin-left: 5px;
+        text-decoration: none;
+        color: white;
+        margin: 5px;
+    }
+    a:hover{
+        text-decoration: underline;
+        font-size: 1.1em;
+    }
+    header{
+        position: relative;
+        margin-bottom: 10px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+            <a href="#">Link4</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Noticias do Brasil</h1>
+        <section>
+            <h2>Esportes</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi nesciunt eveniet nobis ad optio veniam, debitis non iure veritatis unde? Quibusdam provident tenetur quisquam quaerat, maiores architecto corporis necessitatibus odit.</p>
+        </section>
+        <section>
+            <article>
+                <h2>Politíca</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione tenetur obcaecati amet fugit veritatis est debitis illum, asperiores fuga quo soluta perspiciatis dolorum incidunt beatae similique consectetur hic quia. Porro!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est consequuntur vero porro unde fuga incidunt magni, assumenda dignissimos harum maxime, vitae eaque non! Laboriosam esse magni autem ea ad culpa.
+                </p>
+                <aside>Escrito por Gregorio da Fonseca</aside>
+            </article>
+        </section>
+    </main>
+    <footer>W.S. Company</footer>
+</body>
+</html>
